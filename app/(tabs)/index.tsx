@@ -91,6 +91,9 @@ const HomeScreen = () => {
     await AsyncStorage.removeItem('loggedInUser');
     setIsLoggedIn(false);
     setUserData(null);
+    setUsername('');
+    setPassword('');
+    setFullName('');
   };
 
   return (
